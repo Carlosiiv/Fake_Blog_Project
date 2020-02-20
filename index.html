@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <title>Entreprenurial Education for Youth</title>
     <meta name="description" content="Blog relating entrepreneurship and the benefits of early education"><br>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <h1>Entreprenurial Education for Youth</h1>
+    <nav class="active-link">
+        <ul id="navbar">
+            <li id="bar"><a href="index.html">Home</a></li>
+            <li id="bar"><a href="news.html">News</a></li>
+            <li id="bar"><a href="contactus.html">Contact</a></li>
+            <li id="bar"><a href="citations.html">About</a></li>
+        </ul>
+    </nav>
+    <header class="top-border">
+        <h1 class="heading-text">Entreprenurial Education for Youth</h1>
         
-            <img src="Img\Entrepreneur.jpg" alt="Cool Entrepreneur Photo">
+            <img src="Img\Entrepreneur.jpg" alt="Cool Entrepreneur Photo" id="img-top">
     </header>
-        <main>
-            <h2>Benefits of Early Entreprenurial Education </h2>
-
-                <img src="Img\employeevsselfentre.jpg" alt="SelfVEmployee">
-                
+    <div class="container-body">
+        <article class="left">
+            <h2 class="heading-text">Benefits of Early Entreprenurial Education </h2>
+            <img src="Img\entrepreneurshipcomplete.jpg" alt="completeent" class="pic-size"> 
                 <p>Early entreprenurial edcuation is the idea of teaching youths to think logically and strategically.<br>
                     It teaches: <br>
                         <ul>
@@ -25,22 +33,23 @@
                             
                         </ul>
                 </p>
-        </main>
-        <article>
-            <h2>Reading Points</h2>
+        </article>
+        <article class="right">
+            <h2 class="heading-text">Reading Points</h2>
 
-                <img src="Img\girlentrepreneur.jpg" alt="GirlEnt"><br>
+                <img src="Img\girlentrepreneur.jpg" alt="GirlEnt" class="pic-size"><br>
 
                 <a href="https://www.dol.gov/odep/pubs/fact/entrepreneurship.htm">Department of Labor Article</a>
                 <a href="https://www.entrepreneur.com/article/245038">Entrepreneur Magazine Article</a>
                 <a href="https://www.europeanentrepreneurship.com/need-study-learn-entrepreneurship-education/">Euro Entrepreneur Article</a>
         </article>
-        <article>
-            <h2>Videos of Interest</h2>
+        <article class="center">
+            <h2 class="heading-text">Videos of Interest</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Ihs4VFZWwn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>
+    </div>
         <footer> 
-            <h2>To Kept Up to Date:</h2>
+            <h3 class="heading-text">To Kept Up to Date:</h3><br>
             <form action="Future Server" method="EmailList Addition">
                 <label for="First Name">FIRST NAME:</label>
                 <input type="text" id="first_name" name="first_name">
